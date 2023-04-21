@@ -1,0 +1,295 @@
+@media  screen and (max-width: 380px){
+    .header{
+        position: static;
+        max-width: 375px;
+        height: 52px;
+        padding-top: 3.5px;
+        padding-bottom: 0;
+    }
+
+    .address{
+        display: none;
+    }
+
+    .logo-title{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #2BA0B2;
+
+        background-size: 25px;
+        padding-left: 31px;
+        margin-right: 32px;
+    }
+
+    .tel{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        color: #333333;
+        margin-right: 40px;
+    }
+
+    .tel.last{
+        margin: 0;
+    }
+
+    .header-grid-up{
+        justify-content: center;
+        align-items: center;;
+        margin-bottom: 0;
+    }
+
+    .header-grid-down{
+        display: none;
+    }
+
+    .header-discr-time{
+        display: none;
+    }
+
+    .mess{
+        max-width: 25px;
+    }
+
+    .mess.tg{
+        display: none;
+    }
+
+    .mess-link:not(:last-child){
+        margin-right: 10px;
+    }
+
+    .svg-box{
+        display: block;
+    }
+
+    HTML CSSResult Skip Results Iframe EDIT ON
+    .ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    .hamRotate.active {
+    transform: rotate(45deg);
+    }
+    .hamRotate180.active {
+    transform: rotate(180deg);
+    }
+    .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#2BA0B2;
+    stroke-width: 5;
+    }
+    .ham1 .top {
+    stroke-dasharray: 40 139;
+    }
+    .ham1 .bottom {
+    stroke-dasharray: 40 180;
+    }
+    .ham1.active .top {
+    stroke-dashoffset: -98px;
+    }
+    .ham1.active .bottom {
+    stroke-dashoffset: -138px;
+    }
+
+    .nav{
+        display: none;
+    }
+    
+    .header-btn{
+        display: none;
+    }
+
+    .section-grid-container{
+        max-width: 375px;
+    }
+
+    .section-grid{
+        width: 375px;
+        height: 372px;
+    }
+
+    .grid-bg{
+        width: 335px;
+        height: 270px;
+        left: 20px;
+    }
+
+    .grid-title{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 210px;
+        margin-bottom: 10px;
+    }
+
+    .grid-content{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .grid-discr{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .grid-btn{
+        width: 300px;
+        padding: 15px 90px 15px 90px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .main-title{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        color: #333333;
+
+        top: 8px;
+        left: 30px;
+    }
+
+    .section-title{
+        width: 45px;
+        height: 45px;
+        left: 20px;
+    }
+
+    .nav-services-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-item:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .services-link{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+
+        padding: 14px 57px 14px 57px;
+    }
+
+    .section-services{
+        height: 67px;
+        background-color: white;
+    }
+
+    .section-srvices-price{
+        padding-top: 25px;
+        background-color: #F8FCFD;
+    }
+
+    .src-price-title{
+        background-size: 48px 2px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #333333;
+        margin-left: 10px;
+        padding-left: 58px;
+    }
+
+    .price-header{
+        display: none !important;
+    }
+
+    .price-item{
+        display: flex;
+        flex-direction: column;
+        max-width: 335px;
+        padding: 15px 25px;
+    }
+
+    .title-price-sub{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #333333;
+
+        margin-bottom: 10px;
+    }
+
+    .discr-price-sub{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        width: 120px;
+        align-items: normal;
+
+        padding-right: 20px;
+        border-right: 1px solid #2BA0B2;
+    }
+
+    .price-btn{
+        display: block;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 7px 31px 7px 31px;
+    }
+    
+
+    .box-price{
+        width: inherit;
+    }
+
+    .nav > li:hover > ul.sub-list {
+        display: block;
+    }
+    
+    ul.nav-list > li:hover > ul.under-sub-list, ul.under-sub-list:active {
+        display: block;
+    }
+    
+    
+}
