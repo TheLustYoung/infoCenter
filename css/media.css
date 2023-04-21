@@ -8,7 +8,10 @@
     }
 
     .address{
-        display: none;
+        position: absolute;;
+        display: block;
+        top: 92px;
+        z-index: 15;
     }
 
     .logo-title{
@@ -44,10 +47,6 @@
         justify-content: center;
         align-items: center;;
         margin-bottom: 0;
-    }
-
-    .header-grid-down{
-        display: none;
     }
 
     .header-discr-time{
@@ -105,12 +104,70 @@
     stroke-dashoffset: -138px;
     }
 
+    .nav-link{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #333333;
+    }
+
+    .nav-link--active{
+        background-image: url("/img/arrow.svg");
+        display:inline-block;
+        background-repeat: no-repeat;
+        background-size: 17px;
+        background-position: center right;
+        padding-right: 20px;
+    }
+
+
     .nav{
-        display: none;
+        position: relative;;
+        z-index: 15;
+        background-color: white;
+        width: 375px;
+        height: 410px;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .nav-list{
+        position: absolute;
+        z-index: 14;
+        display: flex;
+        flex-direction: column;
+        max-width: 335px;
+        left: 20px;
+        top: 125px;
+    }
+
+    .nav-item{
+        margin-bottom: 5px;
+    }
+
+    .sub-list{
+        display: block;
+        position: absolute !important;
+        z-index: 999    ;
     }
     
     .header-btn{
-        display: none;
+        position: absolute;
+        z-index: 13;
+        display: block;
+        top: 371px;
+        left: 20px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding: 14px 82px 14px 82px;
     }
 
     .section-grid-container{
@@ -283,9 +340,9 @@
         width: inherit;
     }
 
-    .nav > li:hover > ul.sub-list {
+    ul.nav-list > li:hover > ul.sub-list {
         display: block;
-    }
+    }    
     
     ul.nav-list > li:hover > ul.under-sub-list, ul.under-sub-list:active {
         display: block;

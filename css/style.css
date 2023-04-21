@@ -191,6 +191,7 @@ img {
     margin-right: 154px;
 }
 
+
 .nav-list{
     display: flex;
     flex-direction: row;
@@ -204,6 +205,7 @@ img {
 .nav-item:not(:last-child){
     margin-right: 5vw;
 }
+
 
 
 .sub-list{
@@ -230,10 +232,14 @@ ul.nav-list > li:hover > ul.under-sub-list, ul.under-sub-list:active {
 }
 
 .under-sub-list{
+    position: absolute;
+    left: 400px;
     display: none;
     margin-left: 40px;
     list-style-type: disc;
-    width: 400px;
+    width: 850px;
+    height: auto;
+    background: white;
 }
 
 
@@ -245,9 +251,15 @@ ul.nav-list > li:hover > ul.under-sub-list, ul.under-sub-list:active {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    border: none;
+    background: none;
+}
+
+.under-sub-item::marker{
+    color: black;
 }
 
 
@@ -258,10 +270,36 @@ ul.nav-list > li:hover > ul.under-sub-list, ul.under-sub-list:active {
     font-size: 24px;
     line-height: 33px;
     color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+    border: none;
+    background: none;
+    
+}
+
+.sub-link{
+    color: white;
+    padding: 10px;
+}
+
+.sub-link:hover{
+    background: white;
+    color: #2BA0B2;
 }
 
 .nav-link:last-child{
     padding-right: 35px;
+}
+
+.nav-item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.nav-item:last-child{
+    margin-bottom: 30px;
 }
 
 
