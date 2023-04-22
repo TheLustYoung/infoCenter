@@ -117,7 +117,7 @@ img {
     align-items: center;
     color: #2BA0B2;
 
-    background-image: url("/img/logo.svg");
+    background-image: url("../img/logo.svg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 65px;
